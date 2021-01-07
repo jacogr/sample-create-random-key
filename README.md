@@ -7,8 +7,7 @@ Creates a random sr25519 keypair -
 Example output -
 
 ```
-{
-  address: 'H74R8WXLbtPcBvjRGPFSAMCaD7r2Z58EfoLGEARb3RHMCCw',
-  seed: '0xf3f3de9f6296026453a701f8b7c27b648ba36b07a8a40ae23b331b6e385545df'
-}
+      via seed ELw6v9JYz9nVUFJ92gHebPxzjDia2ueiF9MD8v5AZ3BiVaB
+  via mnemonic FP1F463pA7JgC3nUaqUks8ukiRE9Kv2DpEK9uiMxqTBsf95
+via minisecret H2Nijz3bYh9FAXi7TnqhBMrppBg2Mqko7gjk6GwwDJcFLpR
 ```
