@@ -5,12 +5,12 @@ async function main () {
   await cryptoWaitReady();
 
   const keyring = new Keyring({ type: 'sr25519', ss58Format: 2 });
-  const miniSecret = randomAsHex(32);
-  const pair = keyring.addFromUri(miniSecret, { name: 'testing' });
+  const seed = randomAsHex(32);
+  const pair = keyring.addFromUri(seed, { name: 'testing' });
 
   return {
     address: pair.address,
-    privateKey: miniSecret
+    seed
   };
 }
 
