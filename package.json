@@ -1,0 +1,14 @@
+{
+  "name": "sample-create-random-key",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-json-modules ./index.mjs"
+  },
+  "dependencies": {
+    "@polkadot/keyring": "^5.2.3",
+    "@polkadot/util": "^5.2.3",
+    "@polkadot/util-crypto": "^5.2.3"
+  }
+}
